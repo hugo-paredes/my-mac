@@ -1,0 +1,16 @@
+---
+formulae:
+  - name: ansible
+    state: present
+  - name: ansible-lint
+    state: present
+  - name: git
+    state: present
+  - name: mas
+    state: present
+  - name: wget
+    state: present
+  - name: yamllint
+    state: present
+  - name: neovim
+    state: present

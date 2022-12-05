@@ -1,0 +1,10 @@
+---
+- name: Set Finder view mode.
+  community.general.osx_defaults:
+    domain: "{{ item.domain }}"
+    key: "{{ item.key }}"
+    type: "{{ item.type }}"
+    value: "{{ item.value }}"
+    state: "{{ item.state }}"
+  notify: "{{ item.notify }}"
+  loop: "{{ defaults_values }}"

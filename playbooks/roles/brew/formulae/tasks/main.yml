@@ -1,0 +1,11 @@
+---
+- name: Ensure that the homebrew formulae are installed.
+  community.general.homebrew:
+    name: "{{ item.name }}"
+    state: "{{ item.state }}"
+  loop: "{{ formulae }}"
+
+- name: Update homebrew and upgrade all packages.
+  community.general.homebrew:
+    update_homebrew: true
+    upgrade_all: true

@@ -1,0 +1,46 @@
+---
+casks:
+  - name: 1password
+    state: present
+  - name: alfred
+    state: present
+  - name: appcleaner
+    state: present
+  - name: dotnet-sdk
+    state: present
+  - name: google-chrome
+    state: present
+  - name: iterm2
+    state: present
+  - name: itsycal
+    state: present
+  - name: microsoft-auto-update
+    state: present
+  - name: microsoft-office
+    state: present
+  - name: spotify
+    state: present
+  - name: telegram
+    state: present
+  - name: topnotch
+    state: present
+  - name: visual-studio-code
+    state: present
+  - name: whatsapp
+    state: present
+  - name: rider
+    state: present
+  - name: iina
+    state: present
+  - name: font-meslo-lg-nerd-font
+    state: present
+  - name: signal
+    state: present
+  - name: raspberry-pi-imager
+    state: present
+  - name: alt-tab
+    state: present
+  - name: transmission
+    state: present
+  - name: nordvpn
+    state: present

@@ -1,0 +1,10 @@
+---
+- name: Provision my Mac - Install the applications and configure the system.
+  hosts: all
+  connection: local
+
+  roles:
+    - defaults
+    - store_applications
+    - brew/formulae
+    - brew/casks
