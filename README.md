@@ -18,10 +18,10 @@ xcode-select --install
 
 ```shell
 # 1. Upgrade pip
-sudo pip3 install --upgrade pip
+python3 -m pip install --upgrade pip
 
 # 2. Install ansible
-pip3 install ansible
+python3 -m pip install ansible --user
 ```
 
 ## Usage
