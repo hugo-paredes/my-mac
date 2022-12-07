@@ -5,6 +5,14 @@ git_config_default_branch: main
 
 defaults_values:
   - domain: com.apple.dock
+    key: "autohide"
+    type: bool
+    value: true
+    state: present
+    notify: Restart dock
+    description: Autohide dock.
+
+  - domain: com.apple.dock
     key: "autohide-delay"
     type: float
     value: 0

@@ -1,0 +1,4 @@
+---
+- name: Install python packages using pip
+  ansible.builtin.pip:
+    name: "{{ packages }}"

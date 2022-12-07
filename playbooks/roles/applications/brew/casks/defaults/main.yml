@@ -32,8 +32,6 @@ casks:
     state: present
   - name: iina
     state: present
-  - name: font-meslo-lg-nerd-font
-    state: present
   - name: signal
     state: present
   - name: raspberry-pi-imager
@@ -43,4 +41,6 @@ casks:
   - name: transmission
     state: present
   - name: nordvpn
+    state: present
+  - name: warp
     state: present

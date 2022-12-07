@@ -5,6 +5,7 @@
 
   roles:
     - defaults
-    - store_applications
-    - brew/formulae
-    - brew/casks
+    - applications/brew/formulae
+    - applications/brew/casks
+    - applications/pip
+    - applications/store_applications

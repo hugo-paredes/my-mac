@@ -9,6 +9,9 @@
   notify: "{{ item.notify }}"
   loop: "{{ defaults_values }}"
 
+- name: Execute handlers
+  ansible.builtin.meta: flush_handlers
+
 - name: Update git global configuration and sets the `user.name` option.
   community.general.git_config:
     name: user.name
