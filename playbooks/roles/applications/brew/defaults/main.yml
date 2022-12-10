@@ -1,4 +1,14 @@
 ---
+formulae:
+  - name: git
+    state: present
+  - name: mas
+    state: present
+  - name: wget
+    state: present
+  - name: neovim
+    state: present
+
 casks:
   - name: 1password
     state: present
@@ -43,4 +53,10 @@ casks:
   - name: nordvpn
     state: present
   - name: warp
+    state: present
+  - name: parallels
+    state: present
+  - name: parallels-access
+    state: present
+  - name: parallels-toolbox
     state: present
