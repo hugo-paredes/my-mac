@@ -8,3 +8,4 @@
     - applications/brew
     - applications/pip
     - applications/store_applications
+    - configuration

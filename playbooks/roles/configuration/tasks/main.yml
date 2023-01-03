@@ -1,0 +1,13 @@
+---
+- name: Configure Neovim
+  block:
+    - name: Ensure the Neovim configuration folder exists
+      ansible.builtin.file:
+        path: $HOME/.config/nvim
+        mode: 0755
+        state: directory
+    - name: Download 'lua.init' file
+      ansible.builtin.get_url:
+        url: https://raw.githubusercontent.com/nvim-lua/kickstart.nvim/master/init.lua
+        dest: $HOME/.config/nvim/init.lua
+        mode: 0755
