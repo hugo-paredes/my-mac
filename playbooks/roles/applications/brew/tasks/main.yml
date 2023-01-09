@@ -1,15 +1,45 @@
 ---
 - name: Make sure that the homebrew casks are installed.
   community.general.homebrew_cask:
-    name: "{{ item.name }}"
-    state: "{{ item.state }}"
-  loop: "{{ casks }}"
+    name:
+      - 1password
+      - alfred
+      - appcleaner
+      - dotnet-sdk
+      - google-chrome
+      - iterm2
+      - itsycal
+      - microsoft-auto-update
+      - microsoft-office
+      - spotify
+      - telegram
+      - topnotch
+      - visual-studio-code
+      - whatsapp
+      - rider
+      - iina
+      - signal
+      - raspberry-pi-imager
+      - alt-tab
+      - transmission
+      - nordvpn
+      - warp
+      - parallels
+      - parallels-access
+      - parallels-toolbox
+      - podman-desktop
+    state: present
 
 - name: Ensure that the homebrew formulae are installed.
   community.general.homebrew:
-    name: "{{ item.name }}"
-    state: "{{ item.state }}"
-  loop: "{{ formulae }}"
+    name:
+      - git
+      - mas
+      - wget
+      - neovim
+      - podman
+      - podman-compose
+    state: present
 
 - name: Update homebrew and upgrade all packages.
   community.general.homebrew:
