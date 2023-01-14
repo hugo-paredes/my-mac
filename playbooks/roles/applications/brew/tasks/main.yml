@@ -4,30 +4,30 @@
     name:
       - 1password
       - alfred
+      - alt-tab
       - appcleaner
       - dotnet-sdk
       - google-chrome
+      - iina
       - iterm2
       - itsycal
       - microsoft-auto-update
       - microsoft-office
-      - spotify
-      - telegram
-      - topnotch
-      - visual-studio-code
-      - whatsapp
-      - rider
-      - iina
-      - signal
-      - raspberry-pi-imager
-      - alt-tab
-      - transmission
       - nordvpn
-      - warp
       - parallels
       - parallels-access
       - parallels-toolbox
       - podman-desktop
+      - raspberry-pi-imager
+      - rider
+      - signal
+      - spotify
+      - telegram
+      - topnotch
+      - transmission
+      - visual-studio-code
+      - warp
+      - whatsapp
     state: present
 
 - name: Ensure that the homebrew formulae are installed.
@@ -35,10 +35,11 @@
     name:
       - git
       - mas
-      - wget
       - neovim
+      - npm
       - podman
       - podman-compose
+      - wget
     state: present
 
 - name: Update homebrew and upgrade all packages.
