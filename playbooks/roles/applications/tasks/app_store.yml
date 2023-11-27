@@ -1,9 +1,9 @@
 ---
 - name: Install applications from the App Store
   community.general.mas:
-    id: "{{ item.id }}"
+    id: "{{ item.id | int }}"
     state: "{{ item.state }}"
-  loop: "{{ store_apps }}"
+  loop: "{{ applications_app_store }}"
 
 - name: Upgrade all installed Mac App Store apps
   community.general.mas:

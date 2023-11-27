@@ -1,0 +1,15 @@
+---
+- name: Make sure that the homebrew casks are installed.
+  community.general.homebrew_cask:
+    name: "{{ applications_casks }}"
+    state: present
+
+- name: Ensure that the homebrew formulae are installed.
+  community.general.homebrew:
+    name: "{{ applications_brew }}"
+    state: present
+
+- name: Update homebrew and upgrade all packages.
+  community.general.homebrew:
+    update_homebrew: true
+    upgrade_all: true

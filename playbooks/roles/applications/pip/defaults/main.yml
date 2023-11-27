@@ -1,4 +1,0 @@
----
-packages:
-  - ansible-lint
-  - yamllint

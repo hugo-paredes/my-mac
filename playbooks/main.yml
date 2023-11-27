@@ -5,7 +5,5 @@
 
   roles:
     - defaults
-    - applications/brew
-    - applications/pip
-    - applications/store_applications
+    - applications
     - configuration

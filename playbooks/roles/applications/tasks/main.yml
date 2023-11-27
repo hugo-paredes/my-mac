@@ -1,0 +1,9 @@
+---
+- name: Install brew application
+  ansible.builtin.include_tasks: "brew.yml"
+
+- name: Install pip applications
+  ansible.builtin.include_tasks: "pip.yml"
+
+- name: Install App Store applications
+  ansible.builtin.include_tasks: "app_store.yml"

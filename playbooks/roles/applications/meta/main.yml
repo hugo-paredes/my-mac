@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Hugo Paredes
-  description: Install and brew applications, both `formulae` and `casks`
+  description: Install all applications
 
   license: Apache-2.0
 
