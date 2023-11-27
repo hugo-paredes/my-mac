@@ -19,6 +19,7 @@ applications_casks:
   - whatsapp
 
 applications_brew:
+  - gh
   - git
   - mas
   - neovim
