@@ -1,4 +1,5 @@
 ---
 - name: Install python packages using pip
   ansible.builtin.pip:
-    name: "{{ applications_pip }}"
+    name: "{{ item }}"
+  loop: "{{ applications_pip }}"
