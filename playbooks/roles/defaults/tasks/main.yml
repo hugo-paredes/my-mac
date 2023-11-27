@@ -9,21 +9,23 @@
   notify: "{{ item.notify }}"
   loop: "{{ defaults_values }}"
 
-- name: Execute handlers
+- name: "Execute handlers"
   ansible.builtin.meta: flush_handlers
 
 - name: Update git global configuration and sets the `user.name` option.
   community.general.git_config:
-    name: user.name
-    scope: global
-    value: "{{ git_config_username }}"
+    name: 'user.name'
+    scope: 'global'
+    value: "{{ defaults_git_config_username }}"
+
 - name: Update git global configuration and sets the `user.email` option.
   community.general.git_config:
-    name: user.email
-    scope: global
-    value: "{{ git_config_email }}"
+    name: "user.email"
+    scope: "global"
+    value: "{{ defaults_git_config_email }}"
+
 - name: Update git global configuration and sets the `defaultBranch` option.
   community.general.git_config:
-    name: init.defaultBranch
+    name: 'init.defaultBranch'
     scope: global
-    value: "{{ git_config_default_branch }}"
+    value: "{{ defaults_git_config_default_branch }}"

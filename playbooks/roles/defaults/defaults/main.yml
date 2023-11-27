@@ -1,7 +1,7 @@
 ---
-git_config_username: Hugo Paredes
-git_config_email: paredes.hmn@gmail.com
-git_config_default_branch: main
+defaults_git_config_username: "Hugo Paredes"
+defaults_git_config_email: "paredes.hmn@gmail.com"
+defaults_git_config_default_branch: "main"
 
 defaults_values:
   - domain: com.apple.dock
