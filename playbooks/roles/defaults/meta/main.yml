@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Hugo Paredes
-  description: Set macOS defaults
+  description: Run default configuration
 
   license: Apache-2.0
 

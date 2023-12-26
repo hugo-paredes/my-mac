@@ -3,6 +3,7 @@ applications_casks:
   - 1password
   - alt-tab
   - appcleaner
+  - docker
   - dotnet-sdk
   - google-chrome
   - iterm2
