@@ -20,6 +20,7 @@ applications_casks:
   - whatsapp
 
 applications_brew:
+  - act
   - gh
   - git
   - mas
