@@ -27,6 +27,7 @@ applications_brew:
   - neovim
   - npm
   - wget
+  - stow
 
 applications_pip:
   - ansible-lint
