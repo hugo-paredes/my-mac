@@ -18,6 +18,7 @@ applications_casks:
   - transmission
   - visual-studio-code
   - whatsapp
+  - garmin-express
 
 applications_brew:
   - act
