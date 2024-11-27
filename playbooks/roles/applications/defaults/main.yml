@@ -1,24 +1,22 @@
 ---
 applications_casks:
-  - 1password
   - alt-tab
   - appcleaner
-  - docker
   - dotnet-sdk
+  - garmin-express
   - google-chrome
   - iterm2
   - itsycal
   - microsoft-auto-update
   - microsoft-office
+  - proton-pass
   - raspberry-pi-imager
-  - signal
   - spotify
   - telegram
   - topnotch
   - transmission
   - visual-studio-code
   - whatsapp
-  - garmin-express
 
 applications_brew:
   - act
@@ -27,8 +25,8 @@ applications_brew:
   - mas
   - neovim
   - npm
-  - wget
   - stow
+  - wget
 
 applications_pip:
   - ansible-lint
@@ -41,9 +39,6 @@ applications_app_store:
   - id: 1452453066
     state: present
     name: "Hidden Bar"
-  - id: 1568262835
-    state: present
-    name: "Super Agent for Safari"
   - id: 1458969831
     state: present
     name: "JSON Peep for Safari"
@@ -62,6 +57,9 @@ applications_app_store:
   - id: 1136220934
     state: present
     name: "Infuse 7"
-  - id: 1569813296
+  - id: id6443941139
     state: present
-    name: "1Password for Safari"
+    name: "2FAS Browser Extension"
+  - id: id6502835663
+    state: present
+    name: "Proton Pass for Safari"
