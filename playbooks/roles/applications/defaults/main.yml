@@ -3,6 +3,10 @@ applications_casks:
   - alt-tab
   - appcleaner
   - dotnet-sdk
+  - font-comic-shanns-mono-nerd-font
+  - font-daddy-time-mono-nerd-font
+  - font-fantasque-sans-mono-nerd-font
+  - font-martian-mono-nerd-font
   - garmin-express
   - google-chrome
   - iterm2
@@ -20,12 +24,15 @@ applications_casks:
 
 applications_brew:
   - act
+  - fzf
   - gh
   - git
   - mas
   - neovim
   - npm
+  - oh-my-posh
   - stow
+  - tmux
   - wget
 
 applications_pip:
